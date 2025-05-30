@@ -1,6 +1,8 @@
 {
-  "name": "ESAA",
+  "name": "vATIS Profile - Sweden 30 May 2025",
   "id": "a3d3ab1c-f8d3-449e-b1d4-64cfa95a335e",
+  "updateUrl": "http://vatis.lusep.fi/profile.json",
+  "updateSerial": 2025053001,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
