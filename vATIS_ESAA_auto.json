@@ -1,7 +1,7 @@
 {
   "name": "ESAA 30 May 2025",
-  "id": "a3d3ab1c-f8d3-449e-b1d4-64cfa95a335e",
-    "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
+  "id": "8149f89b-2433-4d85-be9d-7a5f1c763019",
+  "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
   "updateSerial": 2025053001,
   "stations": [
     {
@@ -16474,7 +16474,7 @@
           "id": "f4851536-1890-4303-a989-4984a185381e",
           "name": "ESSA ARR 01R/DEP 01L (1)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16489,7 +16489,7 @@
           "id": "ffa4e689-d525-45d7-bf70-e3de2e53dbf9",
           "name": "ESSA ARR 19L/DEP 19R (2)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 19L. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 19L. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16504,7 +16504,7 @@
           "id": "2dd8c975-527f-4b73-8ce4-7bac30ef3e35",
           "name": "ESSA ARR 01L/DEP 01L (3)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01L. [ARPT_COND] [NOTAMS]  SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16519,7 +16519,7 @@
           "id": "c543b66d-b4e2-4e1b-a2c6-c20ca704ab81",
           "name": "ESSA ARR 01L/DEP 08 (4)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 01L. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 01L. [ARPT_COND] [NOTAMS] MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16534,7 +16534,7 @@
           "id": "8df6126b-8a0c-406a-9b33-a216263fa70c",
           "name": "ESSA ARR 01R/DEP 08 (5)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS] MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16549,7 +16549,7 @@
           "id": "cbced159-7a72-4c80-b8de-83f61064d207",
           "name": "ESSA ARR 01R/DEP 01R (6)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01R IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01R IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS]  SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16564,7 +16564,7 @@
           "id": "f186385b-282d-450a-a9fe-6f0b9583a3a9",
           "name": "ESSA ARR 08/DEP 08 (7)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 08. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 08. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16579,7 +16579,7 @@
           "id": "bac4bec2-f3f3-41b6-b0ae-6999952494c6",
           "name": "ESSA ARR 08/DEP 19L (8)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 08. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 08. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16594,7 +16594,7 @@
           "id": "2959d8b9-9984-4d57-9d8a-a9009966b8f9",
           "name": "ESSA ARR 19L/DEP 19L (9A/9B)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 19L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 19L. [ARPT_COND] [NOTAMS]  SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16609,7 +16609,7 @@
           "id": "ce7077e6-9559-441f-b143-af7b37ec8c87",
           "name": "ESSA ARR 19R/DEP 08 (10)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 08 IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS] MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16624,7 +16624,7 @@
           "id": "ae4606d2-1d37-4912-bf07-2b4d0cef664f",
           "name": "ESSA ARR 19R/DEP 19L (11)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16639,7 +16639,7 @@
           "id": "deb09574-3997-42e4-8463-f021c44535f9",
           "name": "ESSA ARR 19R/DEP 19R (12)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 19R. [ARPT_COND] [NOTAMS]  SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16654,7 +16654,7 @@
           "id": "2ae25593-3923-4105-9ba3-ad3dbfecb701",
           "name": "ESSA ARR 26/DEP 01L (13)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16669,7 +16669,7 @@
           "id": "6d198c75-4dcf-4cb3-8afc-f6b32703a7b3",
           "name": "ESSA ARR 26/DEP 19R (14)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19R IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16684,7 +16684,7 @@
           "id": "7419f5aa-3231-4e23-8860-8194a413faa3",
           "name": "ESSA ARR 26/DEP 19L (15A/15B)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS] MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 19L IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16699,7 +16699,7 @@
           "id": "cfe89bdf-226e-4f1f-bdd1-a125301cc602",
           "name": "ESSA ARR 26/DEP 26 (16)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 26 IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 26 IN USE. ARR RWY 26. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18754,7 +18754,7 @@
           "id": "4c6add4a-dac8-406b-80b6-f29322ab5afb",
           "name": "ESSA ARR 01R/DEP 01L (1)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18770,7 +18770,7 @@
           "name": "ESSA ARR 19L/DEP 19R (2)",
           "airportConditions": "",
           "notams": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19L IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19L IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18785,7 +18785,7 @@
           "id": "1b0b0205-8f52-4e4d-8e93-fc57d64f271b",
           "name": "ESSA ARR 01L/DEP 01L (3)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01L IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01L IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18800,7 +18800,7 @@
           "id": "9911c872-55ec-4512-a949-6e0fe8afe8e8",
           "name": "ESSA ARR 01L/DEP 08 (4)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01L IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01L IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18815,7 +18815,7 @@
           "id": "cd29a822-861b-4412-a17c-4aa903c5e94c",
           "name": "ESSA ARR 01R/DEP 08 (5)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18830,7 +18830,7 @@
           "id": "d7caceaa-7192-4dab-8a82-65a8b9d17e4c",
           "name": "ESSA ARR 01R/DEP 01R (6)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 01R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 01R IN USE. DEP RWY 01R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18845,7 +18845,7 @@
           "id": "6041588b-3079-476a-9f1f-f59db277cc7f",
           "name": "ESSA ARR 08/DEP 08 (7)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. RNP RWY 08 IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. RNP RWY 08 IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18860,7 +18860,7 @@
           "id": "c15ef20d-2c60-4eae-a20e-d7f91b390198",
           "name": "ESSA ARR 08/DEP 19L (8)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. RNP RWY 08 IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. RNP RWY 08 IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18876,7 +18876,7 @@
           "name": "ESSA ARR 19L/DEP 19L (9A/9B)",
           "airportConditions": "",
           "notams": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19L IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19L IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18891,7 +18891,7 @@
           "id": "749a3911-84f9-4d13-b6ff-0fe4080cfcfc",
           "name": "ESSA ARR 19R/DEP 08 (10)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 08. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18906,7 +18906,7 @@
           "id": "4db60f79-24fc-42ed-8d6e-d4ba4ec8cfd5",
           "name": "ESSA ARR 19R/DEP 19L (11)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18921,7 +18921,7 @@
           "id": "a1612c36-6ff3-495f-9fd5-ed607c6705c4",
           "name": "ESSA ARR 19R/DEP 19R (12)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 19R IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18936,7 +18936,7 @@
           "id": "a26c76ab-f97e-4091-9fa5-fe6a2b15429a",
           "name": "ESSA ARR 26/DEP 01L (13)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 01L. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18951,7 +18951,7 @@
           "id": "a741ebc6-0b4b-4a60-bb58-78260a22d420",
           "name": "ESSA ARR 26/DEP 19R IMC (14)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS] ADDNL SPACING ON FINAL DUE TO RWYS IN USE. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18966,7 +18966,7 @@
           "id": "7bb3f284-c1ec-44a9-ac91-2f86a0c9011c",
           "name": "ESSA ARR 26/DEP 19R VMC (14)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS]  [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19R. [ARPT_COND] [NOTAMS]  [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18981,7 +18981,7 @@
           "id": "4f990314-ccf6-498a-9775-f59bd872452f",
           "name": "ESSA ARR 26/DEP 19L (15A/15B)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 19L. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -18996,7 +18996,7 @@
           "id": "2f5728af-2883-472f-9365-9bf3bae23e2f",
           "name": "ESSA DEP 26/ARR 26 (16)",
           "airportConditions": "",
-          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 26. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [FULL_WX_STRING].",
+          "template": "ESSA_ARR_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 26 IN USE. DEP RWY 26. [ARPT_COND] [NOTAMS] SINGLE RWY OPERATIONS. [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
