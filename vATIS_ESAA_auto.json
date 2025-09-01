@@ -2,7 +2,7 @@
   "name": "ESAA 02 SEP 2025",
   "id": "8149f89b-2433-4d85-be9d-7a5f1c763019",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025090201,
+  "updateSerial": 2025090202,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2112,7 +2112,7 @@
         {
           "variableName": "LOC_T",
           "text": "LOC T",
-          "voice": "LOC TANGO APPROACH"
+          "voice": "LOCALIZER TANGO APPROACH"
         }
       ],
       "airportConditionDefinitions": [
@@ -19117,5 +19117,6 @@
   ],
   "version": 4
 }
+
 
 
