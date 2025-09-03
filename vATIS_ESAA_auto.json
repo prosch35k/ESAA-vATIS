@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 02 SEP 2025",
+  "name": "ESAA 03 SEP 2025",
   "id": "8149f89b-2433-4d85-be9d-7a5f1c763019",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025090203,
+  "updateSerial": 2025090301,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2006,7 +2006,7 @@
           "id": "29cd570a-119d-48ee-a75c-d086ae32e9bf",
           "name": "ESGG RWY 03 TEMPO LOC T",
           "airportConditions": "",
-          "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. LOC_T RWY 03 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
+          "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. TEMPORARY. LOC APCH. RWY 03 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19117,6 +19117,7 @@
   ],
   "version": 4
 }
+
 
 
 
