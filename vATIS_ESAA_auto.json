@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 03 SEP 2025",
+  "name": "ESAA 12 SEP 2025",
   "id": "8149f89b-2433-4d85-be9d-7a5f1c763019",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025090301,
+  "updateSerial": 2025091201,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -1964,7 +1964,7 @@
       "presets": [
         {
           "id": "d8b0bfc6-ec18-4ef4-b17e-ea6b4484aa0b",
-          "name": "ESGG RWY 03 ILS (N/A until 16 SEP)",
+          "name": "ESGG RWY 03 ILS",
           "airportConditions": "",
           "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 03 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
@@ -1979,7 +1979,7 @@
         },
         {
           "id": "0f9fd737-9bed-4f9f-8815-4ddb4f530eec",
-          "name": "ESGG RWY 21 ILS (N/A until 16 SEP)",
+          "name": "ESGG RWY 21 ILS",
           "airportConditions": "",
           "notams": "",
           "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. ILS RWY 21 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
@@ -1989,24 +1989,9 @@
         },
         {
           "id": "29cd570a-119d-48ee-a75c-d086ae32e9bf",
-          "name": "ESGG RWY 03 RNP Z (N/A until 16 SEP)",
+          "name": "ESGG RWY 03 RNP Z",
           "airportConditions": "",
           "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. RNP_Z RWY 03 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "29cd570a-119d-48ee-a75c-d086ae32e9bf",
-          "name": "ESGG RWY 03 TEMPO LOC T",
-          "airportConditions": "",
-          "template": "ESGG_ATIS [ATIS_CODE]. TIME [TIME]. TEMPORARY. LOC APCH. RWY 03 IN USE. [ARPT_COND] [NOTAMS] [TL]. MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19117,6 +19102,7 @@
   ],
   "version": 4
 }
+
 
 
 
