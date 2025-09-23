@@ -1,8 +1,8 @@
 {
-  "name": "ESAA 12 SEP 2025",
-  "id": "8149f89b-2433-4d85-be9d-7a5f1c763019",
+  "name": "ESAA 24 SEP 2025",
+  "id": "2ecaf8ea-4e36-45c8-a7fb-5ed19943adc3",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025091201,
+  "updateSerial": 2025092401,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -21,7 +21,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -33,38 +33,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -83,7 +83,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -1781,13 +1781,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -1852,7 +1852,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -1860,7 +1860,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -1868,14 +1868,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -1889,9 +1889,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -1934,20 +1934,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS LANDVETTER ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. LANDVETTER. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -1959,7 +1959,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -2027,7 +2027,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS APPROACH"
+          "voice": "I LS APPROACH."
         },
         {
           "variableName": "LVP",
@@ -2072,7 +2072,7 @@
         {
           "variableName": "ESGG_ATIS",
           "text": "ESGG ATIS",
-          "voice": "THIS IS LANDVETTER ATIS INFORMATION"
+          "voice": "THIS IS. LANDVETTER. ATIS. INFORMATION."
         },
         {
           "variableName": "RNP_Z",
@@ -2126,7 +2126,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -2138,38 +2138,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -2188,7 +2188,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -3886,13 +3886,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -3957,7 +3957,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -3965,7 +3965,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -3973,14 +3973,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -3994,9 +3994,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -4039,20 +4039,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS SKAVSTA ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. SKAVSTA. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -4064,7 +4064,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -4107,7 +4107,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -4152,7 +4152,7 @@
         {
           "variableName": "ESKN_ATIS",
           "text": "ESKN ATIS",
-          "voice": "THIS IS SKAVSTA ATIS INFORMATION"
+          "voice": "THIS IS. SKAVSTA ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -4191,7 +4191,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -4203,38 +4203,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -4253,7 +4253,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -5951,13 +5951,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -6022,7 +6022,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -6030,7 +6030,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -6038,14 +6038,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -6059,9 +6059,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -6104,20 +6104,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS STURUP ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. STURUP. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -6129,7 +6129,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -6174,7 +6174,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -6219,7 +6219,7 @@
         {
           "variableName": "ESMS_ATIS",
           "text": "ESMS ATIS",
-          "voice": "THIS IS STURUP ATIS INFORMATION"
+          "voice": "THIS IS. STURUP. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -6258,7 +6258,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -6270,38 +6270,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -6320,7 +6320,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -8018,13 +8018,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -8089,7 +8089,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -8097,7 +8097,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -8105,14 +8105,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -8126,9 +8126,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -8171,20 +8171,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS SUNDSVALL ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. SUNDSVALL. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -8196,7 +8196,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -8240,7 +8240,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -8285,7 +8285,7 @@
         {
           "variableName": "ESNN_ATIS",
           "text": "ESNN ATIS",
-          "voice": "THIS IS SUNDSVALL ATIS INFORMATION"
+          "voice": "THIS IS. SUNDSVALL. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -8324,7 +8324,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -8336,38 +8336,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -8386,7 +8386,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -10084,13 +10084,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -10155,7 +10155,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -10163,7 +10163,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -10171,14 +10171,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -10192,9 +10192,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -10237,20 +10237,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS VAESTERAAS ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. VESTEROAHS. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -10262,7 +10262,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -10306,7 +10306,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -10351,7 +10351,7 @@
         {
           "variableName": "ESOW_ATIS",
           "text": "ESOW ATIS",
-          "voice": "THIS IS VAESTERAAS ATIS INFORMATION"
+          "voice": "THIS IS. VESTEROAHS. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -10390,7 +10390,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -10402,38 +10402,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -10452,7 +10452,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -12150,13 +12150,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -12221,7 +12221,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -12229,7 +12229,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -12237,14 +12237,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -12258,9 +12258,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -12303,20 +12303,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS BROMMA ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. BROMMA. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -12328,7 +12328,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -12386,7 +12386,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS APPROACH"
+          "voice": "I LS APPROACH."
         },
         {
           "variableName": "LVP",
@@ -12431,7 +12431,7 @@
         {
           "variableName": "ESSB_ATIS",
           "text": "ESSB ATIS",
-          "voice": "THIS IS BROMMA ATIS INFORMATION"
+          "voice": "THIS IS. BROMMA. ATIS. INFORMATION."
         },
         {
           "variableName": "RNP",
@@ -12475,7 +12475,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -12487,38 +12487,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -12537,7 +12537,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -14235,13 +14235,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -14306,7 +14306,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -14314,7 +14314,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -14322,14 +14322,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -14343,9 +14343,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -14388,20 +14388,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS LJUNGBYHED ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. YOONGBEEHEED. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -14413,7 +14413,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -14456,7 +14456,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "PCT",
@@ -14476,7 +14476,7 @@
         {
           "variableName": "LJUNGBYHED",
           "text": "LJUNGBYHED",
-          "voice": "JOONGBEEHEED"
+          "voice": "YOONGBEEHEED"
         },
         {
           "variableName": "OM",
@@ -14501,7 +14501,7 @@
         {
           "variableName": "ESTL_ATIS",
           "text": "ESTL ATIS",
-          "voice": "THIS IS JOONGBEEHEED ATIS INFORMATION"
+          "voice": "THIS IS. YOONGBEEHEED. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -14534,7 +14534,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -14546,38 +14546,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -14596,7 +14596,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -16294,13 +16294,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -16365,7 +16365,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -16373,7 +16373,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -16381,14 +16381,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -16402,9 +16402,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -16447,20 +16447,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS ARLANDA ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. ARLANDA. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -16472,14 +16472,14 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
           "id": "f4851536-1890-4303-a989-4984a185381e",
           "name": "ESSA ARR 01R/DEP 01L (1)",
           "airportConditions": "",
-          "template": "ESSA_DEP_ATIS [ATIS_CODE]. TIME [TIME]. RWY 01L IN USE. ARR RWY 01R. [ARPT_COND] [NOTAMS]  MET REPORT [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE].",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16725,7 +16725,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -16770,7 +16770,7 @@
         {
           "variableName": "ESSA_DEP_ATIS",
           "text": "ESSA DEP ATIS",
-          "voice": "THIS IS ARLANDA ATIS DEPARTURE INFORMATION"
+          "voice": "THIS IS ARLANDA. ATIS. DEPARTURE. INFORMATION."
         },
         {
           "variableName": "SCC",
@@ -16814,7 +16814,7 @@
           ],
           "template": {
             "text": "{time}Z",
-            "voice": "{time}"
+            "voice": "{time}."
           }
         },
         "surfaceWind": {
@@ -16826,38 +16826,38 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": "WIND VARIABLE {wind_spd} KNOTS MAXIMUM {wind_gust}"
+              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
             "template": {
               "text": "VRB BTN {wind_vmin}/ AND {wind_vmax}/",
-              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+              "voice": ". VARIABLE BETWEEN. {wind_vmin}. AND. {wind_vmax}."
             }
           },
           "calm": {
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": "WIND CALM"
+              "voice": ". WEEND CALM."
             }
           }
         },
@@ -16876,7 +16876,7 @@
           "metersCutoff": 4999,
           "template": {
             "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "voice": "VISIBILITY. {visibility}."
           }
         },
         "runwayVisualRange": {
@@ -18574,13 +18574,13 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
           "template": {
             "text": "RECENT {weather}",
-            "voice": "RECENT {weather}"
+            "voice": "RECENT {weather}."
           }
         },
         "clouds": {
@@ -18645,7 +18645,7 @@
           },
           "template": {
             "text": "CLD {clouds}",
-            "voice": "CLOUD {clouds}"
+            "voice": "CLOUD. {clouds}."
           }
         },
         "temperature": {
@@ -18653,7 +18653,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "T{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "TEMPERATURE. {temp}."
           }
         },
         "dewpoint": {
@@ -18661,14 +18661,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "DP{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": "DEWPOINT. {dewpoint}."
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "QNH {altimeter}HPA",
-            "voice": "QNH {altimeter} HECTO PASKAL"
+            "voice": "QNH. {altimeter}. HECTO PASKAL."
           }
         },
         "trend": {
@@ -18682,9 +18682,9 @@
         },
         "windShear": {
           "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}.",
           "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
+          "allRunwayVoice": "Wind Shear All Runways.",
           "template": {}
         },
         "transitionLevel": {
@@ -18727,20 +18727,20 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "voice": "TRANSITION LEVEL. {trl}."
           }
         },
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}"
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": "THIS WAS ARLANDA ATIS INFORMATION {letter|word}. OUT."
+            "voice": "THIS WAS. ARLANDA. ATIS. INFORMATION. {letter|word}. OUT."
           }
         }
       },
@@ -18752,7 +18752,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -19022,7 +19022,7 @@
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "I LS"
+          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -19072,7 +19072,7 @@
         {
           "variableName": "ESSA_ARR_ATIS",
           "text": "ESSA ARR ATIS",
-          "voice": "THIS IS ARLANDA ATIS ARRIVAL INFORMATION"
+          "voice": "THIS IS. ARLANDA. ATIS. ARRIVAL. INFORMATION."
         },
         {
           "variableName": "SCC",
@@ -19101,10 +19101,5 @@
     }
   ],
   "version": 4
+
 }
-
-
-
-
-
-
