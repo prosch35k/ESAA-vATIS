@@ -2,7 +2,7 @@
   "name": "ESAA 24 SEP 2025",
   "id": "d601b4bc-f86c-496b-b4f7-b2f62ee2c6a2",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025092402,
+  "updateSerial": 2025092403,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -33,25 +33,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -64,7 +64,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -2138,25 +2138,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -2169,7 +2169,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -4203,25 +4203,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -4234,7 +4234,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -6270,25 +6270,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -6301,7 +6301,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -8336,25 +8336,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -8367,7 +8367,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -10402,25 +10402,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -10433,7 +10433,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -12487,25 +12487,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -12518,7 +12518,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -14546,25 +14546,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -14577,7 +14577,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
@@ -16826,25 +16826,25 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS."
             }
           },
           "standardGust": {
             "template": {
               "text": "WIND {wind_dir}/{wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND. {wind_dir} DEGREES. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variable": {
             "template": {
               "text": "WIND VRB {wind_spd}KT",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS."
             }
           },
           "variableGust": {
             "template": {
               "text": "WIND VRB {wind_spd}KT MAX {wind_gust}",
-              "voice": ". WEEND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
+              "voice": ". WYND VARIABLE. {wind_spd} KNOTS. MAXIMUM {wind_gust}."
             }
           },
           "variableDirection": {
@@ -16857,7 +16857,7 @@
             "calmWindSpeed": 0,
             "template": {
               "text": "WIND CALM",
-              "voice": ". WEEND CALM."
+              "voice": ". WYND CALM."
             }
           }
         },
