@@ -1,8 +1,8 @@
 {
   "name": "ESAA 24 SEP 2025",
-  "id": "2ecaf8ea-4e36-45c8-a7fb-5ed19943adc3",
+  "id": "d601b4bc-f86c-496b-b4f7-b2f62ee2c6a2",
   "updateUrl": "https://raw.githubusercontent.com/Vatsim-Scandinavia/ESAA-vATIS/refs/heads/main/vATIS_ESAA_auto.json",
-  "updateSerial": 2025092401,
+  "updateSerial": 2025092402,
   "stations": [
     {
       "id": "c7ec7cdc-0329-4d72-8b10-f1ebd164b91a",
@@ -2072,7 +2072,7 @@
         {
           "variableName": "ESGG_ATIS",
           "text": "ESGG ATIS",
-          "voice": "THIS IS. LANDVETTER. ATIS. INFORMATION."
+          "voice": "THIS IS LANDVETTER. ATIS. INFORMATION."
         },
         {
           "variableName": "RNP_Z",
@@ -4152,7 +4152,7 @@
         {
           "variableName": "ESKN_ATIS",
           "text": "ESKN ATIS",
-          "voice": "THIS IS. SKAVSTA ATIS. INFORMATION."
+          "voice": "THIS IS SKAVSTA ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -6219,7 +6219,7 @@
         {
           "variableName": "ESMS_ATIS",
           "text": "ESMS ATIS",
-          "voice": "THIS IS. STURUP. ATIS. INFORMATION."
+          "voice": "THIS IS STURUP. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -8285,7 +8285,7 @@
         {
           "variableName": "ESNN_ATIS",
           "text": "ESNN ATIS",
-          "voice": "THIS IS. SUNDSVALL. ATIS. INFORMATION."
+          "voice": "THIS IS SUNDSVALL. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -10351,7 +10351,7 @@
         {
           "variableName": "ESOW_ATIS",
           "text": "ESOW ATIS",
-          "voice": "THIS IS. VESTEROAHS. ATIS. INFORMATION."
+          "voice": "THIS IS VESTEROAHS. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -12431,7 +12431,7 @@
         {
           "variableName": "ESSB_ATIS",
           "text": "ESSB ATIS",
-          "voice": "THIS IS. BROMMA. ATIS. INFORMATION."
+          "voice": "THIS IS BROMMA. ATIS. INFORMATION."
         },
         {
           "variableName": "RNP",
@@ -14501,7 +14501,7 @@
         {
           "variableName": "ESTL_ATIS",
           "text": "ESTL ATIS",
-          "voice": "THIS IS. YOONGBEEHEED. ATIS. INFORMATION."
+          "voice": "THIS IS YOONGBEEHEED. ATIS. INFORMATION."
         },
         {
           "variableName": "3MM",
@@ -19072,7 +19072,7 @@
         {
           "variableName": "ESSA_ARR_ATIS",
           "text": "ESSA ARR ATIS",
-          "voice": "THIS IS. ARLANDA. ATIS. ARRIVAL. INFORMATION."
+          "voice": "THIS IS ARLANDA. ATIS. ARRIVAL. INFORMATION."
         },
         {
           "variableName": "SCC",
@@ -19101,5 +19101,4 @@
     }
   ],
   "version": 4
-
 }
