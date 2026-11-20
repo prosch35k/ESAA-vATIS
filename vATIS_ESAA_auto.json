@@ -4798,11 +4798,6 @@
           "voice": "HECTO PASKAL"
         },
         {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
-        },
-        {
           "variableName": "LVP",
           "text": "LVP",
           "voice": "LOW VISIBILITY PROCEDURES"
@@ -7202,11 +7197,6 @@
           "variableName": "HPA",
           "text": "HPA",
           "voice": "HECTO PASKAL"
-        },
-        {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -9619,11 +9609,6 @@
           "voice": "HECTO PASKAL"
         },
         {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
-        },
-        {
           "variableName": "LVP",
           "text": "LVP",
           "voice": "LOW VISIBILITY PROCEDURES"
@@ -12022,11 +12007,6 @@
           "variableName": "HPA",
           "text": "HPA",
           "voice": "HECTO PASKAL"
-        },
-        {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -14463,11 +14443,6 @@
           "voice": "HECTO PASKAL"
         },
         {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS APPROACH."
-        },
-        {
           "variableName": "LVP",
           "text": "LVP",
           "voice": "LOW VISIBILITY PROCEDURES"
@@ -14496,11 +14471,6 @@
           "variableName": "ESSB_ATIS",
           "text": "ESSB ATIS",
           "voice": "THIS IS BROMMA. ATIS. INFORMATION."
-        },
-        {
-          "variableName": "RNP",
-          "text": "RNP",
-          "voice": "RNP APPROACH"
         },
         {
           "variableName": "WIP",
@@ -16870,11 +16840,6 @@
           "variableName": "HPA",
           "text": "HPA",
           "voice": "HECTO PASKAL"
-        },
-        {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
         },
         {
           "variableName": "PCT",
@@ -19479,11 +19444,6 @@
           "variableName": "HPA",
           "text": "HPA",
           "voice": "HECTO PASKAL"
-        },
-        {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
         },
         {
           "variableName": "LVP",
@@ -22121,11 +22081,6 @@
           "variableName": "HPA",
           "text": "HPA",
           "voice": "HECTO PASKAL"
-        },
-        {
-          "variableName": "ILS",
-          "text": "ILS",
-          "voice": "I LS."
         },
         {
           "variableName": "LVP",
